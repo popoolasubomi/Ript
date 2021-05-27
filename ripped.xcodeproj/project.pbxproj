@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,36 @@
 		43F23B86265FD8B80031DD18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F23B84265FD8B80031DD18 /* LaunchScreen.storyboard */; };
 		43F23B91265FD8B80031DD18 /* rippedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23B90265FD8B80031DD18 /* rippedTests.swift */; };
 		43F23B9C265FD8B80031DD18 /* rippedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23B9B265FD8B80031DD18 /* rippedUITests.swift */; };
+		43F23BAE265FDE9B0031DD18 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BAD265FDE9B0031DD18 /* ChallengeViewController.swift */; };
+		43F23BB0265FDEA40031DD18 /* SoloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BAF265FDEA40031DD18 /* SoloViewController.swift */; };
+		43F23BD4265FE3EB0031DD18 /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 43F23BB3265FE3EB0031DD18 /* SampleCode.xcconfig */; };
+		43F23BD5265FE3EB0031DD18 /* PoseNetVisualization.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F23BB5265FE3EB0031DD18 /* PoseNetVisualization.png */; };
+		43F23BD6265FE3EB0031DD18 /* PoseNetPipeline.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F23BB6265FE3EB0031DD18 /* PoseNetPipeline.png */; };
+		43F23BD7265FE3EB0031DD18 /* ACKNOWLEDGMENTS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43F23BB8265FE3EB0031DD18 /* ACKNOWLEDGMENTS.txt */; };
+		43F23BD8265FE3EB0031DD18 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43F23BB9265FE3EB0031DD18 /* LICENSE.txt */; };
+		43F23BD9265FE3EB0031DD18 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 43F23BBA265FE3EB0031DD18 /* README.md */; };
+		43F23BDA265FE3EB0031DD18 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 43F23BBB265FE3EB0031DD18 /* .gitignore */; };
+		43F23BDB265FE3EB0031DD18 /* PoseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BBE265FE3EB0031DD18 /* PoseImageView.swift */; };
+		43F23BDC265FE3EB0031DD18 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BBF265FE3EB0031DD18 /* ConfigurationViewController.swift */; };
+		43F23BDD265FE3EB0031DD18 /* PopOverModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BC0265FE3EB0031DD18 /* PopOverModalViewController.swift */; };
+		43F23BDE265FE3EB0031DD18 /* GradientOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BC1265FE3EB0031DD18 /* GradientOverlayView.swift */; };
+		43F23BDF265FE3EB0031DD18 /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BC3265FE3EB0031DD18 /* CGPoint+Extension.swift */; };
+		43F23BE0265FE3EB0031DD18 /* CGImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BC4265FE3EB0031DD18 /* CGImage+Extension.swift */; };
+		43F23BE1265FE3EB0031DD18 /* AVCaptureVideoOrientation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BC6265FE3EB0031DD18 /* AVCaptureVideoOrientation+Extension.swift */; };
+		43F23BE2265FE3EB0031DD18 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BC7265FE3EB0031DD18 /* VideoCapture.swift */; };
+		43F23BE3265FE3EB0031DD18 /* Joint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BC9265FE3EB0031DD18 /* Joint.swift */; };
+		43F23BE4265FE3EB0031DD18 /* PoseBuilder+Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BCA265FE3EB0031DD18 /* PoseBuilder+Multiple.swift */; };
+		43F23BE5265FE3EB0031DD18 /* PoseBuilder+Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BCB265FE3EB0031DD18 /* PoseBuilder+Single.swift */; };
+		43F23BE6265FE3EB0031DD18 /* Pose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BCC265FE3EB0031DD18 /* Pose.swift */; };
+		43F23BE7265FE3EB0031DD18 /* PoseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BCD265FE3EB0031DD18 /* PoseBuilder.swift */; };
+		43F23BE8265FE3EB0031DD18 /* PoseBuilderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BCE265FE3EB0031DD18 /* PoseBuilderConfiguration.swift */; };
+		43F23BE9265FE3EB0031DD18 /* PoseNetOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BD0265FE3EB0031DD18 /* PoseNetOutput.swift */; };
+		43F23BEA265FE3EB0031DD18 /* PoseNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BD1265FE3EB0031DD18 /* PoseNet.swift */; };
+		43F23BEB265FE3EB0031DD18 /* PoseNetInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BD2265FE3EB0031DD18 /* PoseNetInput.swift */; };
+		43F23BEC265FE3EB0031DD18 /* PoseNetMobileNet075S16FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43F23BD3265FE3EB0031DD18 /* PoseNetMobileNet075S16FP16.mlmodel */; };
+		44E58A42DE1BECD2CB89D76C /* Pods_rippedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68EECA2401E24A29F0AE634 /* Pods_rippedTests.framework */; };
+		4B67860B577562FAEBE2A16A /* Pods_ripped.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE042F7A400E5D57966CC12 /* Pods_ripped.framework */; };
+		9D10F9761ED672C887A6BA9D /* Pods_ripped_rippedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EBACBB5D1F869F263F9798 /* Pods_ripped_rippedUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12EBACBB5D1F869F263F9798 /* Pods_ripped_rippedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ripped_rippedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		265113E962DB6501A602DE3B /* Pods-ripped-rippedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ripped-rippedUITests.release.xcconfig"; path = "Target Support Files/Pods-ripped-rippedUITests/Pods-ripped-rippedUITests.release.xcconfig"; sourceTree = "<group>"; };
 		43F23B76265FD8B70031DD18 /* ripped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ripped.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F23B79265FD8B70031DD18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43F23B7B265FD8B70031DD18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +81,40 @@
 		43F23B97265FD8B80031DD18 /* rippedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rippedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F23B9B265FD8B80031DD18 /* rippedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rippedUITests.swift; sourceTree = "<group>"; };
 		43F23B9D265FD8B80031DD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F23BAD265FDE9B0031DD18 /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		43F23BAF265FDEA40031DD18 /* SoloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloViewController.swift; sourceTree = "<group>"; };
+		43F23BB3265FE3EB0031DD18 /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
+		43F23BB5265FE3EB0031DD18 /* PoseNetVisualization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PoseNetVisualization.png; sourceTree = "<group>"; };
+		43F23BB6265FE3EB0031DD18 /* PoseNetPipeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PoseNetPipeline.png; sourceTree = "<group>"; };
+		43F23BB8265FE3EB0031DD18 /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
+		43F23BB9265FE3EB0031DD18 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		43F23BBA265FE3EB0031DD18 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		43F23BBB265FE3EB0031DD18 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		43F23BBE265FE3EB0031DD18 /* PoseImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseImageView.swift; sourceTree = "<group>"; };
+		43F23BBF265FE3EB0031DD18 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		43F23BC0265FE3EB0031DD18 /* PopOverModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverModalViewController.swift; sourceTree = "<group>"; };
+		43F23BC1265FE3EB0031DD18 /* GradientOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientOverlayView.swift; sourceTree = "<group>"; };
+		43F23BC3265FE3EB0031DD18 /* CGPoint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extension.swift"; sourceTree = "<group>"; };
+		43F23BC4265FE3EB0031DD18 /* CGImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+Extension.swift"; sourceTree = "<group>"; };
+		43F23BC6265FE3EB0031DD18 /* AVCaptureVideoOrientation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoOrientation+Extension.swift"; sourceTree = "<group>"; };
+		43F23BC7265FE3EB0031DD18 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		43F23BC9265FE3EB0031DD18 /* Joint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joint.swift; sourceTree = "<group>"; };
+		43F23BCA265FE3EB0031DD18 /* PoseBuilder+Multiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Multiple.swift"; sourceTree = "<group>"; };
+		43F23BCB265FE3EB0031DD18 /* PoseBuilder+Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Single.swift"; sourceTree = "<group>"; };
+		43F23BCC265FE3EB0031DD18 /* Pose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pose.swift; sourceTree = "<group>"; };
+		43F23BCD265FE3EB0031DD18 /* PoseBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseBuilder.swift; sourceTree = "<group>"; };
+		43F23BCE265FE3EB0031DD18 /* PoseBuilderConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseBuilderConfiguration.swift; sourceTree = "<group>"; };
+		43F23BD0265FE3EB0031DD18 /* PoseNetOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseNetOutput.swift; sourceTree = "<group>"; };
+		43F23BD1265FE3EB0031DD18 /* PoseNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseNet.swift; sourceTree = "<group>"; };
+		43F23BD2265FE3EB0031DD18 /* PoseNetInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoseNetInput.swift; sourceTree = "<group>"; };
+		43F23BD3265FE3EB0031DD18 /* PoseNetMobileNet075S16FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseNetMobileNet075S16FP16.mlmodel; sourceTree = "<group>"; };
+		4DB00173F6A356E3E945F55C /* Pods-ripped.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ripped.release.xcconfig"; path = "Target Support Files/Pods-ripped/Pods-ripped.release.xcconfig"; sourceTree = "<group>"; };
+		5CE042F7A400E5D57966CC12 /* Pods_ripped.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ripped.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DD8BB29416A51B11AE0E9D /* Pods-ripped-rippedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ripped-rippedUITests.debug.xcconfig"; path = "Target Support Files/Pods-ripped-rippedUITests/Pods-ripped-rippedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA7F0C679176B86D2EDE40CF /* Pods-rippedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rippedTests.debug.xcconfig"; path = "Target Support Files/Pods-rippedTests/Pods-rippedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C68EECA2401E24A29F0AE634 /* Pods_rippedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rippedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD25D53E81FBFB37FEFD11C8 /* Pods-ripped.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ripped.debug.xcconfig"; path = "Target Support Files/Pods-ripped/Pods-ripped.debug.xcconfig"; sourceTree = "<group>"; };
+		E56004ACA296713F704DEC0F /* Pods-rippedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rippedTests.release.xcconfig"; path = "Target Support Files/Pods-rippedTests/Pods-rippedTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B67860B577562FAEBE2A16A /* Pods_ripped.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E58A42DE1BECD2CB89D76C /* Pods_rippedTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D10F9761ED672C887A6BA9D /* Pods_ripped_rippedUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +152,8 @@
 				43F23B8F265FD8B80031DD18 /* rippedTests */,
 				43F23B9A265FD8B80031DD18 /* rippedUITests */,
 				43F23B77265FD8B70031DD18 /* Products */,
+				CA300CF61AA4CBE177E90E0B /* Pods */,
+				C9C2755DFD2AEB13D8734A4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +170,10 @@
 		43F23B78265FD8B70031DD18 /* ripped */ = {
 			isa = PBXGroup;
 			children = (
+				43F23BAC265FDE770031DD18 /* VC */,
+				43F23BA9265FDE5A0031DD18 /* Model */,
 				43F23B79265FD8B70031DD18 /* AppDelegate.swift */,
 				43F23B7B265FD8B70031DD18 /* SceneDelegate.swift */,
-				43F23B7D265FD8B70031DD18 /* ViewController.swift */,
 				43F23B7F265FD8B70031DD18 /* Main.storyboard */,
 				43F23B82265FD8B80031DD18 /* Assets.xcassets */,
 				43F23B84265FD8B80031DD18 /* LaunchScreen.storyboard */,
@@ -128,6 +200,151 @@
 			path = rippedUITests;
 			sourceTree = "<group>";
 		};
+		43F23BA9265FDE5A0031DD18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43F23BB1265FE3EB0031DD18 /* ApplePoseEstimationModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43F23BAC265FDE770031DD18 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				43F23B7D265FD8B70031DD18 /* ViewController.swift */,
+				43F23BAD265FDE9B0031DD18 /* ChallengeViewController.swift */,
+				43F23BAF265FDEA40031DD18 /* SoloViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		43F23BB1265FE3EB0031DD18 /* ApplePoseEstimationModel */ = {
+			isa = PBXGroup;
+			children = (
+				43F23BB2265FE3EB0031DD18 /* Configuration */,
+				43F23BB4265FE3EB0031DD18 /* Documentation */,
+				43F23BB7265FE3EB0031DD18 /* LICENSE */,
+				43F23BBA265FE3EB0031DD18 /* README.md */,
+				43F23BBB265FE3EB0031DD18 /* .gitignore */,
+				43F23BBC265FE3EB0031DD18 /* PoseFinder */,
+			);
+			path = ApplePoseEstimationModel;
+			sourceTree = "<group>";
+		};
+		43F23BB2265FE3EB0031DD18 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				43F23BB3265FE3EB0031DD18 /* SampleCode.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		43F23BB4265FE3EB0031DD18 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				43F23BB5265FE3EB0031DD18 /* PoseNetVisualization.png */,
+				43F23BB6265FE3EB0031DD18 /* PoseNetPipeline.png */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		43F23BB7265FE3EB0031DD18 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				43F23BB8265FE3EB0031DD18 /* ACKNOWLEDGMENTS.txt */,
+				43F23BB9265FE3EB0031DD18 /* LICENSE.txt */,
+			);
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		43F23BBC265FE3EB0031DD18 /* PoseFinder */ = {
+			isa = PBXGroup;
+			children = (
+				43F23BBD265FE3EB0031DD18 /* UI */,
+				43F23BC2265FE3EB0031DD18 /* Extensions+Types */,
+				43F23BC5265FE3EB0031DD18 /* Utils */,
+				43F23BC8265FE3EB0031DD18 /* Pose */,
+				43F23BCF265FE3EB0031DD18 /* Model */,
+			);
+			path = PoseFinder;
+			sourceTree = "<group>";
+		};
+		43F23BBD265FE3EB0031DD18 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				43F23BBE265FE3EB0031DD18 /* PoseImageView.swift */,
+				43F23BBF265FE3EB0031DD18 /* ConfigurationViewController.swift */,
+				43F23BC0265FE3EB0031DD18 /* PopOverModalViewController.swift */,
+				43F23BC1265FE3EB0031DD18 /* GradientOverlayView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		43F23BC2265FE3EB0031DD18 /* Extensions+Types */ = {
+			isa = PBXGroup;
+			children = (
+				43F23BC3265FE3EB0031DD18 /* CGPoint+Extension.swift */,
+				43F23BC4265FE3EB0031DD18 /* CGImage+Extension.swift */,
+			);
+			path = "Extensions+Types";
+			sourceTree = "<group>";
+		};
+		43F23BC5265FE3EB0031DD18 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				43F23BC6265FE3EB0031DD18 /* AVCaptureVideoOrientation+Extension.swift */,
+				43F23BC7265FE3EB0031DD18 /* VideoCapture.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		43F23BC8265FE3EB0031DD18 /* Pose */ = {
+			isa = PBXGroup;
+			children = (
+				43F23BC9265FE3EB0031DD18 /* Joint.swift */,
+				43F23BCA265FE3EB0031DD18 /* PoseBuilder+Multiple.swift */,
+				43F23BCB265FE3EB0031DD18 /* PoseBuilder+Single.swift */,
+				43F23BCC265FE3EB0031DD18 /* Pose.swift */,
+				43F23BCD265FE3EB0031DD18 /* PoseBuilder.swift */,
+				43F23BCE265FE3EB0031DD18 /* PoseBuilderConfiguration.swift */,
+			);
+			path = Pose;
+			sourceTree = "<group>";
+		};
+		43F23BCF265FE3EB0031DD18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43F23BD0265FE3EB0031DD18 /* PoseNetOutput.swift */,
+				43F23BD1265FE3EB0031DD18 /* PoseNet.swift */,
+				43F23BD2265FE3EB0031DD18 /* PoseNetInput.swift */,
+				43F23BD3265FE3EB0031DD18 /* PoseNetMobileNet075S16FP16.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9C2755DFD2AEB13D8734A4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CE042F7A400E5D57966CC12 /* Pods_ripped.framework */,
+				12EBACBB5D1F869F263F9798 /* Pods_ripped_rippedUITests.framework */,
+				C68EECA2401E24A29F0AE634 /* Pods_rippedTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA300CF61AA4CBE177E90E0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D53E81FBFB37FEFD11C8 /* Pods-ripped.debug.xcconfig */,
+				4DB00173F6A356E3E945F55C /* Pods-ripped.release.xcconfig */,
+				A3DD8BB29416A51B11AE0E9D /* Pods-ripped-rippedUITests.debug.xcconfig */,
+				265113E962DB6501A602DE3B /* Pods-ripped-rippedUITests.release.xcconfig */,
+				BA7F0C679176B86D2EDE40CF /* Pods-rippedTests.debug.xcconfig */,
+				E56004ACA296713F704DEC0F /* Pods-rippedTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43F23BA0265FD8B80031DD18 /* Build configuration list for PBXNativeTarget "ripped" */;
 			buildPhases = (
+				C080B56B301454FCAB97B15E /* [CP] Check Pods Manifest.lock */,
 				43F23B72265FD8B70031DD18 /* Sources */,
 				43F23B73265FD8B70031DD18 /* Frameworks */,
 				43F23B74265FD8B70031DD18 /* Resources */,
+				51C4DED159C60099B7C2D92B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +371,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43F23BA3265FD8B80031DD18 /* Build configuration list for PBXNativeTarget "rippedTests" */;
 			buildPhases = (
+				34DA89B97EE4F200BCC9C7C7 /* [CP] Check Pods Manifest.lock */,
 				43F23B88265FD8B80031DD18 /* Sources */,
 				43F23B89265FD8B80031DD18 /* Frameworks */,
 				43F23B8A265FD8B80031DD18 /* Resources */,
@@ -170,9 +390,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43F23BA6265FD8B80031DD18 /* Build configuration list for PBXNativeTarget "rippedUITests" */;
 			buildPhases = (
+				78343B61AF6D8618EBF3049D /* [CP] Check Pods Manifest.lock */,
 				43F23B93265FD8B80031DD18 /* Sources */,
 				43F23B94265FD8B80031DD18 /* Frameworks */,
 				43F23B95265FD8B80031DD18 /* Resources */,
+				7650CD173F7C26090D9C0679 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +453,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F23BDA265FE3EB0031DD18 /* .gitignore in Resources */,
+				43F23BD5265FE3EB0031DD18 /* PoseNetVisualization.png in Resources */,
 				43F23B86265FD8B80031DD18 /* LaunchScreen.storyboard in Resources */,
+				43F23BD7265FE3EB0031DD18 /* ACKNOWLEDGMENTS.txt in Resources */,
 				43F23B83265FD8B80031DD18 /* Assets.xcassets in Resources */,
+				43F23BD8265FE3EB0031DD18 /* LICENSE.txt in Resources */,
 				43F23B81265FD8B70031DD18 /* Main.storyboard in Resources */,
+				43F23BD9265FE3EB0031DD18 /* README.md in Resources */,
+				43F23BD6265FE3EB0031DD18 /* PoseNetPipeline.png in Resources */,
+				43F23BD4265FE3EB0031DD18 /* SampleCode.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +482,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34DA89B97EE4F200BCC9C7C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rippedTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C4DED159C60099B7C2D92B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ripped/Pods-ripped-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ripped/Pods-ripped-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ripped/Pods-ripped-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7650CD173F7C26090D9C0679 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ripped-rippedUITests/Pods-ripped-rippedUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ripped-rippedUITests/Pods-ripped-rippedUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ripped-rippedUITests/Pods-ripped-rippedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78343B61AF6D8618EBF3049D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ripped-rippedUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C080B56B301454FCAB97B15E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ripped-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43F23B72265FD8B70031DD18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F23BE3265FE3EB0031DD18 /* Joint.swift in Sources */,
+				43F23BB0265FDEA40031DD18 /* SoloViewController.swift in Sources */,
 				43F23B7E265FD8B70031DD18 /* ViewController.swift in Sources */,
+				43F23BE1265FE3EB0031DD18 /* AVCaptureVideoOrientation+Extension.swift in Sources */,
 				43F23B7A265FD8B70031DD18 /* AppDelegate.swift in Sources */,
+				43F23BE2265FE3EB0031DD18 /* VideoCapture.swift in Sources */,
+				43F23BAE265FDE9B0031DD18 /* ChallengeViewController.swift in Sources */,
+				43F23BE4265FE3EB0031DD18 /* PoseBuilder+Multiple.swift in Sources */,
+				43F23BDD265FE3EB0031DD18 /* PopOverModalViewController.swift in Sources */,
+				43F23BE6265FE3EB0031DD18 /* Pose.swift in Sources */,
+				43F23BDE265FE3EB0031DD18 /* GradientOverlayView.swift in Sources */,
+				43F23BDC265FE3EB0031DD18 /* ConfigurationViewController.swift in Sources */,
+				43F23BE0265FE3EB0031DD18 /* CGImage+Extension.swift in Sources */,
+				43F23BE9265FE3EB0031DD18 /* PoseNetOutput.swift in Sources */,
 				43F23B7C265FD8B70031DD18 /* SceneDelegate.swift in Sources */,
+				43F23BEA265FE3EB0031DD18 /* PoseNet.swift in Sources */,
+				43F23BDF265FE3EB0031DD18 /* CGPoint+Extension.swift in Sources */,
+				43F23BE5265FE3EB0031DD18 /* PoseBuilder+Single.swift in Sources */,
+				43F23BE7265FE3EB0031DD18 /* PoseBuilder.swift in Sources */,
+				43F23BEB265FE3EB0031DD18 /* PoseNetInput.swift in Sources */,
+				43F23BDB265FE3EB0031DD18 /* PoseImageView.swift in Sources */,
+				43F23BE8265FE3EB0031DD18 /* PoseBuilderConfiguration.swift in Sources */,
+				43F23BEC265FE3EB0031DD18 /* PoseNetMobileNet075S16FP16.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +785,12 @@
 		};
 		43F23BA1265FD8B80031DD18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD25D53E81FBFB37FEFD11C8 /* Pods-ripped.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DF23RMRWS;
 				INFOPLIST_FILE = ripped/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,10 +805,12 @@
 		};
 		43F23BA2265FD8B80031DD18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB00173F6A356E3E945F55C /* Pods-ripped.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DF23RMRWS;
 				INFOPLIST_FILE = ripped/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,6 +825,7 @@
 		};
 		43F23BA4265FD8B80031DD18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7F0C679176B86D2EDE40CF /* Pods-rippedTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +847,7 @@
 		};
 		43F23BA5265FD8B80031DD18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56004ACA296713F704DEC0F /* Pods-rippedTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +869,7 @@
 		};
 		43F23BA7265FD8B80031DD18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3DD8BB29416A51B11AE0E9D /* Pods-ripped-rippedUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +889,7 @@
 		};
 		43F23BA8265FD8B80031DD18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265113E962DB6501A602DE3B /* Pods-ripped-rippedUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

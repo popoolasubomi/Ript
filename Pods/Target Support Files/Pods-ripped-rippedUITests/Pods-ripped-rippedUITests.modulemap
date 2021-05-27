@@ -1,0 +1,6 @@
+framework module Pods_ripped_rippedUITests {
+  umbrella header "Pods-ripped-rippedUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
